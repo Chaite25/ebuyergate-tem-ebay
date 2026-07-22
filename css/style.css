@@ -54,7 +54,9 @@ img {
 .container {
     width: 1230px;
 }
-
+.tds-row.tds-signature {
+	display: none !important;
+}
 
 /*  ================================
         global area end
