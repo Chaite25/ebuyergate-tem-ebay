@@ -577,10 +577,10 @@ section.tab-section {
 
 .tab-section ul li::before {
     position: absolute;
-    content: "\f046";
+    content: "●";
     font-family: fontawesome;
     left: 0;
-    color: #0074D9;
+    color: #000;
 }
 
 .tab-section p a {
