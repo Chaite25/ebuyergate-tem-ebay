@@ -8,6 +8,14 @@ body {
     line-height: 1.6;
     font-family: 'Open Sans', sans-serif;
     color: #1a1a1a;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+font {
+    font-size: 14px;
 }
 
 a,
@@ -50,9 +58,7 @@ img {
 .container {
     width: 1230px;
 }
-.tds-row.tds-signature {
-	display: none !important;
-}
+
 
 /*  ================================
         global area end
@@ -306,7 +312,7 @@ img {
     font-size: 18px;
     color: #fff;
     text-align: center;
-    margin: 20px 0;
+    margin: 0 0 20px;
     font-weight: bold;
 }
 
@@ -382,7 +388,7 @@ img {
     position: relative;
     border: 1px solid #e8e8e8;
     margin-bottom: 30px;
-    height: 300px;
+    height: 220px;
 }
 
 .feature-pro-info > img {
@@ -487,6 +493,7 @@ img {
 
 .ebay-shop {
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .ebay-shop .btn {
@@ -577,10 +584,10 @@ section.tab-section {
 
 .tab-section ul li::before {
     position: absolute;
-    content: "●";
+    content: "\f046";
     font-family: fontawesome;
     left: 0;
-    color: #000;
+    color: #0074D9;
 }
 
 .tab-section p a {
